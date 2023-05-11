@@ -76,7 +76,7 @@ module "s3-cross-account-replication" {
   destination_bucket_name   = "bucket-cross-destination"
   destination_region        = "us-east-1"
   replication_name          = "teste-replicacao"
-  account_id                = "304563978527"
+  account_id                = "your-id"
 
   providers {
     "aws.origen"        = "aws.origen"
